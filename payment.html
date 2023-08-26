@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLarisZe</title>
+    <link rel="icon" type="image" href="img/clariszeLogo.jpg">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+</head>
+
+<body class="home">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-fixed-top" id="navbar" style="font-family: sans-serif;">
+        <div class="container-fluid">
+            <a class="nav-link active" href="index.html"><img src="img/clariszeLogo.jpg" alt="" w="50" height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aboutUsstore.html">The Store</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="aboutUsOwner.html">The Owner</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role=" button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Bale
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="denim.html">Denim</a></li>
+                            <li><a class="dropdown-item" href="MAXImini.html">Maxi/Mini</a></li>
+                            <li><a class="dropdown-item" href="silkySleepwear.html">Silky Sleepwear</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- Button trigger modal -->
+                <li>
+                    <class="d-flex" role="cart"><img src="img/cart (2).png" alt="" height="30px" width="30px"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop"> your cart
+                </li>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="align-items: center;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">oh no!</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Your cart is empty.
+                            </div>
+                            <div class="modal-footer">
+                                <a href="productscart.html"><button type="button" class="btn btn-dark">Check Products
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav><br> <br><br> <br>
+    <!-- navbar end-->
+    <!-- payment start -->
+    <div class="container p-0">
+        <div class="card px-4">
+            <p class="h8 py-3">Payment Details</p>
+            <div class="row gx-3">
+                <div class="col-11">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">Person Name</p>
+                        <input class="form-control mb-3" type="text" placeholder="Name" value="Juna Mae Adlaon">
+                    </div>
+                </div>
+                <div class="col-11">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">Card Number</p>
+                        <input class="form-control mb-3" type="text" placeholder="1234 5678 435678">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">Expiry</p>
+                        <input class="form-control mb-3" type="text" placeholder="MM/YYYY">
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">CVV/CVC</p>
+                        <input class="form-control mb-3 pt-2 " type="password" placeholder="***">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="btn btn-dark mb-3">
+                        <span class="ps-3">Pay P15,000</span>
+                        <span class="fas fa-arrow-right"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- payment end-->
+</body>
+</html>

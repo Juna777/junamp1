@@ -1,0 +1,118 @@
+.home {
+  background-color: #D8D9DA;
+}
+
+.homenavbar {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  font-style: sans-serif;
+}
+
+.navbar a:hover {
+  background-color: #61677A;
+}
+
+.cart:hover {
+  background-color: #61677A;
+}
+
+.responsiv {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  text-align: justify;
+  max-width: 85%;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+.know {
+  margin-inline: 0px;
+  text-align: justify;
+
+}
+
+.footer {
+  background-color: #FFF6E0;
+  color: solid black;
+  position: fixed;
+  bottom: 0px;
+  width: 100%
+}
+
+body {
+  margin: 0px;
+}
+
+table {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  padding: 0px;
+  list-style-type: none;
+
+}
+
+footer {
+  font-style: sans-serif;
+  font-size: small;
+}
+
+.card {
+  padding: 5px;
+  width: fit-content;
+  margin: auto;
+  font-size: 50%;
+}
+
+.inline-card {
+  display: inline-block;
+  margin: auto;
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 100%;
+  float: left;
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.mb-3 {
+  font-style: sans-serif;
+  margin-inline: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about-store {
+  background-color: #D8D9DA;
+
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+.navbar {
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  font-style: sans-serif;
+}
+

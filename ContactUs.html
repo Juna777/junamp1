@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLarisZe</title>
+  <link rel="icon" type="image" href="clariszeLogo.jpg">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+  </script>
+</head>
+
+<body class="home">
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-fixed-top" id="navbar" style="font-family: sans-serif;">
+    <div class="container-fluid">
+      <a class="nav-link active" href="index.html"><img src="img/clariszeLogo.jpg" alt="" w="50" height="60"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Togglenavigation">
+        <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">The Store</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">The Owner</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role=" button" data-bs-toggle="dropdown" aria-expanded="false">
+              Bale
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="denim.html">Denim</a></li>
+              <li><a class="dropdown-item" href="MAXImini.html">Maxi/Mini</a></li>
+              <li><a class="dropdown-item" href="silkySleepwear.html">Silky Sleepwear</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" href="ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- Button trigger modal -->
+        <li>
+          <class="d-flex" role="cart"><img src="img/cart (2).png" alt="" height="30px" width="30px"
+              data-bs-toggle="modal" data-bs-target="#staticBackdrop"> your cart
+        </li>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true" style="align-items: center;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">oh no!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Your cart is empty.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark"><a href="productscart.html">Check Products</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav><br> <br>
+  <!-- navbar end-->
+  <!-- form start -->
+  <center>
+    <h3>Hi! Send us a message.</h3><br><br>
+    <form>
+      <div class="form-control" style="width: 500px;border-radius: 10px; border-color: black;color:black;">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Fullname"
+            value="email" required>
+        </div>
+        <div class="mb-3">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"
+              required></textarea>
+          </div>
+    </form>
+    <div>
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Send
+      </button>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you for getting in touch!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            We appreciate you reaching out to us and will respond promptly. Stay tuned for our
+            immediate response!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div><br><br><br>
+    <!-- accordion start -->
+    <h3 class="font-family-sans-serif">FAQs</h3>
+    <div class="accordion" id="accordionPanelsStayOpenExample font-family-sans-serif" style="width: 60%;">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Q: How can I reach your customer support team?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            A: To get in touch with our customer support, you can either email us at [email protected] or use the live
+            chat feature on our website. We are available [mention your support hours here] to assist you with any
+            questions or concerns you may have.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Q: What payment methods do you accept?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            A: We accept various payment methods, including credit/debit cards (Visa, Mastercard, American Express),
+            Gcash, PayMaya and bank transfers. You can select your preferred payment option during the checkout process.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            Q: How long does shipping usually take?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            A: Shipping times may vary depending on your location and the shipping method chosen. Typically, it can
+            range from 3-5 business days. You can track your package using the provided tracking number.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item ">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Q: Can I cancel or modify my order?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            A: If you need to cancel or modify your order, please reach out to our customer support team as soon as
+            possible. We will do our best to accommodate your request if the order has not been processed or shipped
+            yet. However, please note that during peak seasons or sale periods, the processing time may be faster, and
+            we might not be able to modify or cancel your order.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- accordion end -->
+    <!-- marketing vid start-->
+    <div class="card-group" style="width: 60%;">
+      <div class="card">
+        <button type="button" class="btn"><a href="MAXImini.html">
+            <video video controls loop class="card-img-top" width="5%" height="30%" autoplay muted>
+              <source src="vid/denimclick.mp4" type="video/mp4">
+              <source src="vid/denimclick.mp4" type="video/ogg">
+              Your browser does not support the video tag.</a></button>
+      </div>
+      <div class="card">
+        <button type="button" class="btn"><a href="MAXImini.html">
+            <video video controls loop class="card-img-top" width="5%" height="30%" autoplay muted>
+              <source src="vid/maxiclick.mp4" type="video/mp4">
+              <source src="vid/maxiclick.mp4" type="video/ogg">
+              Your browser does not support the video tag. </a></button>
+      </div>
+      <div class="card">
+        <button type="button" class="btn"><a href="silkySleepwear.html">
+            <video video controls loop class="card-img-top" width="5%" height="30%" autoplay muted>
+              <source src="vid/silky click.mp4" type="video/mp4">
+              <source src="vid/silky click.mp4" type="video/ogg">
+              Your browser does not support the video tag.</a></button>
+      </div>
+    </div>
+    <!-- marketing vid end-->
+    <!-- location-->
+    <br>
+    <div class=>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.591921820679!2d123.87194531054092!3d10.294426867856995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99c04b49bc7e7%3A0xc10658e55e54279d!2sAtillo%20St%2C%20Cebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1692962434288!5m2!1sen!2sph"
+        width="1100" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><br>
+    <div>
+      <h6 class="font-family-sans-serif">ClarisZe Ukay Bale <br>Mambaling, Cebu City, Cebu Philippines</h6>
+    </div>
+  </center>
+  <!-- location end-->
+  <!-- footer start -->
+  <div class="container-fluid font-family-sans-serif">
+    <footer class="text-center text-lg-start text-black" style="background-color: #FFF5E4;">
+      <div class="container p-4 pb-0">
+        <section class="">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <div>
+                <a href="index.html"><img src="img/clariszeLogo.jpg" alt="" width="100px" height="100px">
+                </a>
+              </div>
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-3 font-weight-bold">Links
+              </h6>
+              <p>
+                <a class="text-black" href="aboutUsstore.html"> About Us</a>
+              </p>
+              <p>
+                <a class="text-black" href="ContactUs.html">Message Us</a>
+              </p>
+              <p>
+                <a class="text-black" href="terms.html">Terms & Conditions</a>
+              </p>
+            </div>
+            <hr class="w-100 clearfix d-md-none" />
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+              <p id="address">+063 956 3107</p>
+              <p id="email"> clarisze@gmail.com</p>
+              <p id="mobile"> Cebu City, Philippines 6000 </p>
+            </div>
+          </div>
+        </section>
+        <hr class="my-3">
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8 text-md-start">
+              <div class="p-3">
+                © 2023 ClarisZe Ukay Bale All rights reserved.
+                <a class="text-black" href="https://juna777.github.io/MP1/"></a>
+              </div>
+            </div>
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-md-end">
+              <a class="btn btn-outline-black btn-floating m-1" class="text-black" role="button" href="https://www.facebook.com/profile.php?id=100092439813950&
+                  mibextid=ZbWKwL"><img src="img/facebook.png" alt="" height="30px"> </a>
+              <a class="btn btn-outline-black btn-floating m-1" class="text-black" role="button" href="https://instagram.com/mommy_mm86?utm_source=qr&
+                  igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="img/instagram.png" alt="" height="30px">
+              </a>
+              <a class="btn btn-outline-black btn-floating m-1" class="text-black" role="button"
+                href="ContactUs.html"><img src="img/email.png" alt="" height="30px"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </div>
+  <!-- footer end -->
+
+</body>
+
+</html>
